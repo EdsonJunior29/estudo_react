@@ -1,9 +1,18 @@
 import './App.css'
 
 function App() {
+
+  const name = 'Edson Junior';
+  const data = {
+    age : 34,
+    job: 'Programmer'
+  }
+
   return (
     <>
-      <h1>Hello world</h1>
+      <h1>Hello {name}</h1>
+      <h4>I have {data.age} years old</h4>
+      <h4>I am {data.job}</h4>
     </>
   )
 }
