@@ -1,4 +1,5 @@
 import './App.css'
+import EventsComponent from './components/EventsComponent';
 import FirstComponent from './components/FirstComponent';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <h4>I am {data.job}</h4>
 
       <FirstComponent/>
+      <EventsComponent/>
     </>
   )
 }
